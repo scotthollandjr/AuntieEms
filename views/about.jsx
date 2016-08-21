@@ -1,13 +1,11 @@
 var React = require('react');
 var DefaultLayout = require('./layout');
 
-var IndexComponent = React.createClass({
+var AboutComponent = React.createClass({
   render: function() {
     return (
       <DefaultLayout name={this.props.name}>
-        <div>
-          <h3>And this is the index</h3>
-        </div>
+        <h3>About</h3>
         <div>
           <a href="/">home</a>
           <a href="/contact">contact</a>
@@ -18,4 +16,4 @@ var IndexComponent = React.createClass({
   }
 });
 
-module.exports = IndexComponent;
+module.exports = AboutComponent;
