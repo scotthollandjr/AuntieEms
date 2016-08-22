@@ -6,7 +6,6 @@ var ContactComponent = React.createClass({
     return (
       <DefaultLayout name={this.props.name}>
         <div>
-          <h3>This be contact, ya dig</h3>
           <ul>
             <li>Phone: phone</li>
             <li>GitHub: github</li>

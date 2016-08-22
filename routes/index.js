@@ -5,12 +5,16 @@ router.get('/', function (req, res) {
   res.render('index', {name: "Home"});
 });
 
-router.get('/contact', function(req, res) {
-  res.render('contact', {name: "Contact"});
-})
+router.get('/gallery', function(req, res) {
+  res.render('gallery', {name: "Gallery"});
+});
 
 router.get('/about', function(req, res) {
   res.render('about', {name: "About"});
-})
+});
+
+router.get('/contact', function(req, res) {
+  res.render('contact', {name: "Contact"});
+});
 
 module.exports = router;

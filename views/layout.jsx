@@ -11,21 +11,24 @@ var MasterLayout = React.createClass({
           <title>Auntie Em's | {this.props.name}</title>
         </head>
         <body>
-          <h1 title>title</h1>
-          <nav class="nav">
-            <div class="container">
-              <div class="nav-left">
-                <a class="nav-item is-brand" href="/">
+          <nav className="nav">
+            <div className="container">
+              <div className="nav-left">
+                <a className="nav-item is-brand" href="/">
                   <img src="/img/eevee2.png" alt="some logo" height="75"/>
                 </a>
+                <p className="nav-item">Auntie Em's | {this.props.name}</p>
               </div>
-              <div class="nav-right">
-                <a class="nav-item is-tab" href="/about">About</a>
-                <a class="nav-item is-tab" href="/contact">Contact</a>
+              <div className="nav-right">
+                <a className="nav-item is-tab" href="/gallery">Gallery</a>
+                <a className="nav-item is-tab" href="/about">About</a>
+                <a className="nav-item is-tab" href="/contact">Contact</a>
               </div>
             </div>
           </nav>
-          {this.props.children}
+          <div className="container">
+              {this.props.children}
+          </div>
         </body>
       </html>
     )
