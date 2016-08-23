@@ -20,8 +20,8 @@ var MasterLayout = React.createClass({
                 <p className="nav-item">Auntie Em's | {this.props.name}</p>
               </div>
               <div className="nav-right">
-                <a className="nav-item is-tab" href="/gallery">Gallery</a>
                 <a className="nav-item is-tab" href="/about">About</a>
+                <a className="nav-item is-tab" href="/gallery">Gallery</a>
                 <a className="nav-item is-tab" href="/contact">Contact</a>
               </div>
             </div>
