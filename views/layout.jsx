@@ -8,6 +8,7 @@ var MasterLayout = React.createClass({
           <meta httpEquiv="Content-Type" content="text/html" />
           <link href="/css/bulma.css" rel="stylesheet" type="text/css"/>
           <link href="/css/styles.css" rel="stylesheet"  type="text/css"/>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
           <title>Auntie Em's | {this.props.name}</title>
         </head>
         <body>
