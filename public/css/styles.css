@@ -32,13 +32,12 @@ html {
   height: 20vh;
 }
 
-.hundred div {
-  background-color: #666;
+/*.hundred div {
   height: 100%;
   width: 100%;
   margin: 10px;
   margin: auto;
-}
+}*/
 
 #index-logo {
   margin: auto;
@@ -47,5 +46,17 @@ html {
 /** CONTACT *************************************************************/
 
 #contact-div {
+  margin: auto;
+}
+
+.contact-icon {
+  margin-right: 5px;
+}
+
+/** ABOUT *************************************************************/
+
+.about-photo {
+  width: 250px;
+  border-radius: 100%;
   margin: auto;
 }

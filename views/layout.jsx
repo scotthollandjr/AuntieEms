@@ -9,6 +9,7 @@ var MasterLayout = React.createClass({
           <link href="/css/bulma.css" rel="stylesheet" type="text/css"/>
           <link href="/css/styles.css" rel="stylesheet"  type="text/css"/>
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+          <link rel="shortcut icon" type ="image/x-icon" href="/img/azalea.png" />
           <title>Auntie Em's | {this.props.name}</title>
         </head>
         <body>
