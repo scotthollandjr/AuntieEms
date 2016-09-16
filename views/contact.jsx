@@ -6,7 +6,7 @@ var ContactComponent = React.createClass({
     return (
       <DefaultLayout name={this.props.name}>
 
-        <div id="contact-div" className="tile is-8">
+        <div id="contact-div" className="tile is-6">
           <article className="tile is-child notification beige">
             <nav className="panel">
               <p className="panel-heading">

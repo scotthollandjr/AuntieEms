@@ -43,6 +43,10 @@ html {
   margin: auto;
 }
 
+#index-photo {
+  height: 100%;
+}
+
 /** CONTACT *************************************************************/
 
 #contact-div {
@@ -56,7 +60,17 @@ html {
 /** ABOUT *************************************************************/
 
 .about-photo {
+  display: block;
   width: 250px;
   border-radius: 100%;
   margin: auto;
+}
+
+.about-div {
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.about-div p {
+  padding-top: 15px;
 }

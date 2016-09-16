@@ -28,7 +28,9 @@ var IndexComponent = React.createClass({
             </div>
             <div className="tile is-parent">
               <article className="tile is-child notification beige hundred">
-                <div></div>
+                <div className="index-photo">
+                  <img src=""></img>
+                </div>
               </article>
             </div>
           </div>
