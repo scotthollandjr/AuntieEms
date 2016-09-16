@@ -16,21 +16,20 @@ var AboutComponent = React.createClass({
     return (
       <DefaultLayout name={this.props.name}>
 
-        <a onClick={this.openModal} className="button is-primary">modal</a>
-        <div className="modal" id="madmodal">
-          <div className="modal-background"></div>
-          <div className="modal-card">
-            <header className="modal-card-head">
-              <p className="modal-card-title">Modal title</p>
-              <button className="delete"></button>
-            </header>
-            <section className="modal-card-body">
-
-            </section>
-            <footer className="modal-card-foot">
-              <a className="button is-primary">Save changes</a>
-              <a onClick={this.closeModal} className="button">Cancel</a>
-            </footer>
+        <div className="tile is-ancestor">
+          <div className="tile is-parent">
+            <article className="tile is-child notification beige hundred">
+              <div>
+                <h3 className="title is-2">Melissa</h3>
+              </div>
+            </article>
+          </div>
+          <div className="tile is-parent">
+            <article className="tile is-child notification beige hundred">
+              <div>
+                <h3 className="title is-2">Madison</h3>
+              </div>
+            </article>
           </div>
         </div>
 
