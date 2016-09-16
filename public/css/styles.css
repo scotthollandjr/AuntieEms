@@ -1,3 +1,5 @@
+/** PAGE LAYOUT *************************************************************/
+
 html {
   background: url(../img/flower2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -6,22 +8,38 @@ html {
   background-size: cover;
 }
 
+.nav {
+  margin-bottom: 25px;
+}
+
+/** COLORS *************************************************************/
+
 .beige {
 	background: #fdfdec;
 }
+
+/** INDEX *************************************************************/
 
 .hundred {
   height: 88vh;
 }
 
 .seventyfive {
-  height: 65vh;
+  height: 60vh;
 }
 
 .twentyfive {
   height: 20vh;
 }
 
-.nav {
-  margin-bottom: 25px;
+.hundred div {
+  background-color: #666;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  margin: auto;
+}
+
+#index-logo {
+  margin: 0 auto;
 }
