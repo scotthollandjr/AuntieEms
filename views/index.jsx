@@ -10,27 +10,27 @@ var IndexComponent = React.createClass({
             <div className="tile is-vertical is-8">
               <div className="tile">
                 <div className="tile is-parent is-vertical">
-                  <article className="tile is-child notification beige">
+                  <article className="tile is-child notification beige seventyfive">
                     <p className="title">Left tile</p>
                     <p className="subtitle">tall</p>
                   </article>
                 </div>
                 <div className="tile is-parent">
-                  <article className="tile is-child notification beige">
+                  <article className="tile is-child notification beige seventyfive">
                     <p className="title">Middle tile</p>
                     <p className="subtitle">tall</p>
                   </article>
                 </div>
               </div>
               <div className="tile is-parent">
-                <article className="tile is-child notification beige">
-                  <p className="title">Bottom tile</p>
-                  <p className="subtitle">wide</p>
+                <article className="tile is-child notification beige twentyfive">
+                  <p className="subtitle">"Super inspirational quote about children and what not. Lorem ipsum dolor children something something something"</p>
+                  <p>-Wayne Gretzky</p>
                 </article>
               </div>
             </div>
             <div className="tile is-parent">
-              <article className="tile is-child notification beige">
+              <article className="tile is-child notification beige hundred">
                 <p className="title">Tall tile</p>
                 <p className="subtitle">full screen</p>
               </article>

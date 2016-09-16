@@ -6,7 +6,22 @@ html {
   background-size: cover;
 }
 
-
 .beige {
-	background: #F5F5DC;
+	background: #fdfdec;
+}
+
+.hundred {
+  height: 88vh;
+}
+
+.seventyfive {
+  height: 65vh;
+}
+
+.twentyfive {
+  height: 20vh;
+}
+
+.nav {
+  margin-bottom: 25px;
 }

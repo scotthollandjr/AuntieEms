@@ -15,7 +15,7 @@ var MasterLayout = React.createClass({
             <div className="container">
               <div className="nav-left">
                 <a className="nav-item is-brand" href="/">
-                  <img src="/img/eevee2.png" alt="some logo" height="75"/>
+                  <img src="/img/azalea.png" alt="some logo" height="75"/>
                 </a>
                 <p className="nav-item">Auntie Em's | {this.props.name}</p>
               </div>
