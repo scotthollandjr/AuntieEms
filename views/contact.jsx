@@ -22,7 +22,7 @@ var ContactComponent = React.createClass({
                 <span className="icon contact-icon">
                   <i className="fa fa-phone"></i>
                 </span>
-                (408)375-9010
+                (408) 375-9010
               </a>
               <a className="panel-block" href="https://twitter.com/AuntieEmsSJ">
                 <span className="icon contact-icon">
